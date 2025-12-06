@@ -1,0 +1,49 @@
+body {
+    background-color: #eee;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #af6b4c;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+header a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #af6b4c;
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+header a:hover {
+        background-color: #af6b4c;
+}
+h1 {
+    /* top right bottom left */
+    margin: 0 0 10px 0;
+    /* margin-bootom: 10px; */
+}
+
+main {
+    padding:16px
+}
+
+section{
+    background-color: #FFFFFF;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+/* Para referenciar  ID é com o # */
+#exemploid {
+    background-color: rgb(70, 166, 207);
+}
+
+/* Para referenciar classe é com .*/
+.exemploclass {
+background-color: blue;
+
+}
